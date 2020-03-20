@@ -23,6 +23,7 @@ public class EmployeePolymorphismTest {
         Assert.assertTrue(employee instanceof Worker);
     }
 
+    @Test
     public void test3() {
         Assert.assertFalse(employee instanceof Account);
     }
